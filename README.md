@@ -6,6 +6,7 @@ To-Do List Application with Full CRUD Functionality
 This project is a simple To-Do List application that allows users to create, complete, and delete to-do items. The application features a seamless interaction between the front-end and back-end, where the to-do items are dynamically managed and stored in a PostgreSQL database.
 
 Key Features:
+
 ✅Create To-Do Items: Users can add new to-do items by entering a text description and clicking the "Add Todo" button. Each new item is stored in the database and immediately displayed on the page.
 
 ✅Complete To-Do Items: Users can mark a to-do item as "completed" by clicking the "Complete" button next to it. This updates the isComplete field in the database to TRUE, and the visual appearance of the item changes (e.g., background color turns green, and the text gets a line-through effect).
@@ -24,7 +25,7 @@ Backend: Node.js, Express.js, PostgreSQL
 CSS Styling: Basic styles for the to-do items, including dynamic classes for completed tasks.
 This project demonstrates the full CRUD lifecycle of a to-do list, from creation to deletion, with real-time updates to the user interface. It offers an intuitive user experience with a clean, simple design for managing daily tasks.
 
-##How to Run the App Locally
+## How to Run the App Locally
 Follow these steps to run the app on your local machine:
 
 Step 1: Clone the Repository
@@ -56,7 +57,8 @@ Step 5: Access the App in Your Browser
 ⚙️Open a web browser and go to:
 http://localhost:3000
 
-⁉️#How to Use the App⁉️
+##How to Use the App⁉️
+
 Create a Task:
 
 🔅Type a task name in the input field and click the Add button or press Enter.
