@@ -2,6 +2,42 @@
 
 ## Description
 
-This project is a To-Do List application that allows users to create, complete, and delete tasks. It stores tasks in a PostgreSQL database, with dynamic updates to the DOM. Completed tasks are visually marked, and items can be deleted, reflecting changes in both the UI and the database.
+To-Do List Application with Full CRUD Functionality
+This project is a simple To-Do List application that allows users to create, complete, and delete to-do items. The application features a seamless interaction between the front-end and back-end, where the to-do items are dynamically managed and stored in a PostgreSQL database.
+
+Key Features:
+✅Create To-Do Items: Users can add new to-do items by entering a text description and clicking the "Add Todo" button. Each new item is stored in the database and immediately displayed on the page.
+
+✅Complete To-Do Items: Users can mark a to-do item as "completed" by clicking the "Complete" button next to it. This updates the isComplete field in the database to TRUE, and the visual appearance of the item changes (e.g., background color turns green, and the text gets a line-through effect).
+
+✅Delete To-Do Items: Users can delete a to-do item, removing it from both the DOM and the database. A "Delete" button next to each to-do item allows for easy removal.
+
+✅Dynamic UI Updates: The page dynamically updates when to-do items are created, completed, or deleted. The UI responds immediately after each action without needing a page refresh.
+
+✅Visual Feedback for Completed Items: When a to-do item is marked as completed, it visually changes (e.g., background color, text decoration) to provide clear feedback to the user.
+
+✅Backend Integration: The application is connected to a backend built with Node.js and Express, where the to-do items are stored and managed in a PostgreSQL database. The API endpoints handle all the necessary CRUD operations.
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript (with Axios for API requests)
+Backend: Node.js, Express.js, PostgreSQL
+CSS Styling: Basic styles for the to-do items, including dynamic classes for completed tasks.
+This project demonstrates the full CRUD lifecycle of a to-do list, from creation to deletion, with real-time updates to the user interface. It offers an intuitive user experience with a clean, simple design for managing daily tasks.
+
+
+⁉️How to Use the App⁉️
+Create a Task:
+
+🔅Type a task name in the input field and click the Add button or press Enter.
+The task will be added to the list and saved to the database.
+Complete a Task:
+
+🔅Click the Complete button next to a task.
+The task’s isComplete value will update in the database, and the task will be visually marked as complete (e.g., with a green background).
+Delete a Task:
+
+🔅Click the Delete button next to a task.
+The task will be removed from the list and deleted from the database.
+The page will automatically update with the latest list of tasks after each action.
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
