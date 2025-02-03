@@ -53,7 +53,7 @@ Create a new database through Postico. Name it `weekend-to-do-app`. Then, run th
 The tests **will not work** if you do not follow these steps.
 
 1. The input you use to collect "to-do text" user input must have:
-    * `data-testid="toDoTextInput"`
+    * `data-testid="oTextInput"`
 2. The button that a user clicks to "create" a new to-do must have:
   * `data-testid="submitButton"`
 3. Each rendered to-do item must have:

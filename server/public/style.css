@@ -1,0 +1,148 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the body to use full viewport height */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center container */
+  .center-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Horizontally center items */
+    width: 100%;
+    max-width: 400px; /* Limit width for larger screens */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Styling for the header */
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Space between header and form */
+    width: 100%;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form container for input and button */
+  .form-container {
+    display: flex;
+    flex-direction: column; /* Stack the input and button vertically */
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Styling for the input field */
+  .center-input {
+    padding: 10px 20px;
+    width: 100%; /* Ensure it takes up the full width */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Styling for the submit button */
+  .center-button {
+    padding: 12px 20px;
+    width: 100%; /* Ensure it takes up the full width */
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Button hover effect */
+  .center-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button disabled state */
+  button:disabled {
+    background-color: grey;
+  }
+  
+  /* Styling for completed tasks */
+  .completed {
+    background-color: lightgreen;
+  }
+  
+  /* Styling for the to-do list */
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styling for each to-do item */
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Delete button for to-do items */
+  button.delete {
+    background-color: red;
+  }
+  
+  /* Mobile responsiveness: Ensure input and button fit well */
+  @media (max-width: 480px) {
+    .center-container {
+      padding: 15px;
+    }
+  
+    .center-input,
+    .center-button {
+      width: 100%;
+    }
+  }
+  /* Additional styles for the todo list */
+#todo-list {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+/* Style for the delete button within list items */
+#todo-list button.delete {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-list button.delete:hover {
+    background-color: #cc0000;
+}
