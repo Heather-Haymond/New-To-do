@@ -24,8 +24,39 @@ Backend: Node.js, Express.js, PostgreSQL
 CSS Styling: Basic styles for the to-do items, including dynamic classes for completed tasks.
 This project demonstrates the full CRUD lifecycle of a to-do list, from creation to deletion, with real-time updates to the user interface. It offers an intuitive user experience with a clean, simple design for managing daily tasks.
 
+##How to Run the App Locally
+Follow these steps to run the app on your local machine:
 
-⁉️How to Use the App⁉️
+Step 1: Clone the Repository
+⚙️Clone the repository to your local machine using Git:
+ --copy ssh key from the green code button copy:
+ git@github.com:Heather-Haymond/New-To-do.git
+
+⚙️Open your terminal and locate the folder you'd like to store this file, enter
+git clone git@github.com:Heather-Haymond/New-To-do.git
+
+Step 2:Navigate to the Project Directory
+⚙️After cloning the repository, navigate into the project folder:
+cd New-To-do
+
+⚙️If using VS code open file using 
+code . 
+
+Step 3: Install Dependencies
+⚙️Next, install the required dependencies by running:
+npm install
+
+Step 4: Start the Development Server
+ ⚙️To start the development server, run:
+npm start
+
+This will start the application on localhost:3000 by default.
+
+Step 5: Access the App in Your Browser
+⚙️Open a web browser and go to:
+http://localhost:3000
+
+⁉️#How to Use the App⁉️
 Create a Task:
 
 🔅Type a task name in the input field and click the Add button or press Enter.
@@ -39,5 +70,9 @@ Delete a Task:
 🔅Click the Delete button next to a task.
 The task will be removed from the list and deleted from the database.
 The page will automatically update with the latest list of tasks after each action.
+
+
+Support
+If you have suggestions or issues, please email me at edtechenthusiast101@gmail.com
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
